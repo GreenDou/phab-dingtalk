@@ -1,0 +1,26 @@
+{
+  "name": "phab-dingtalk",
+  "version": "0.0.1",
+  "description": "Access webhook between phabricator and dingtalk.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GreenDou/phab-dingtalk.git"
+  },
+  "author": "Greendou",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GreenDou/phab-dingtalk/issues"
+  },
+  "homepage": "https://github.com/GreenDou/phab-dingtalk#readme",
+  "devDependencies": {},
+  "dependencies": {
+    "koa": "^2.5.0",
+    "koa-bodyparser": "^4.2.0",
+    "koa-router": "^7.4.0",
+    "superagent": "^3.8.2"
+  }
+}
